@@ -1,0 +1,44 @@
+[2026-03-13 03:22:13,956] INFO - 🔁 Loading data...
+[2026-03-13 03:22:14,639] INFO - ✅ Data loaded successfully.
+[2026-03-13 03:22:23,419] INFO - 🎬 Recommending movies for: '(500) Days of Summer'
+[2026-03-13 03:22:23,449] INFO - ✅ Top 5 recommendations ready.
+[2026-03-13 03:22:41,259] INFO - 🎬 Recommending movies for: 'Avengers: Age of Ultron'
+[2026-03-13 03:22:41,300] INFO - ✅ Top 5 recommendations ready.
+[2026-03-13 03:26:04,061] INFO - 🔁 Loading data...
+[2026-03-13 03:26:04,464] INFO - ✅ Data loaded successfully.
+[2026-03-13 03:26:08,677] INFO - 🎬 Recommending movies for: '#Horror'
+[2026-03-13 03:26:08,720] INFO - ✅ Top 5 recommendations ready.
+[2026-03-13 03:27:11,060] INFO - 🎬 Recommending movies for: '#Horror'
+[2026-03-13 03:27:11,104] INFO - ✅ Top 5 recommendations ready.
+[2026-03-13 03:28:10,791] INFO - 🔁 Loading data...
+[2026-03-13 03:28:11,102] INFO - ✅ Data loaded successfully.
+[2026-03-13 03:28:13,275] INFO - 🎬 Recommending movies for: '#Horror'
+[2026-03-13 03:28:13,320] INFO - ✅ Top 5 recommendations ready.
+[2026-03-13 03:30:32,815] INFO - 🔁 Loading data...
+[2026-03-13 03:30:33,220] INFO - ✅ Data loaded successfully.
+[2026-03-13 03:31:00,724] INFO - 🎬 Recommending movies for: '3000 Miles to Graceland'
+[2026-03-13 03:31:00,768] INFO - ✅ Top 5 recommendations ready.
+[2026-03-13 03:35:29,991] INFO - 🔁 Loading data...
+[2026-03-13 03:35:30,379] INFO - ✅ Data loaded successfully.
+[2026-03-13 03:35:32,849] INFO - 🎬 Recommending movies for: '#Horror'
+[2026-03-13 03:35:32,875] INFO - ✅ Top 5 recommendations ready.
+[2026-03-13 03:35:51,539] INFO - 🎬 Recommending movies for: 'Avengers: Age of Ultron'
+[2026-03-13 03:35:51,568] INFO - ✅ Top 5 recommendations ready.
+[2026-03-13 09:02:26,825] INFO - 🔁 Loading data...
+[2026-03-13 09:02:27,492] INFO - ✅ Data loaded successfully.
+[2026-03-13 09:05:09,069] INFO - 🔁 Loading data...
+[2026-03-13 09:05:09,491] INFO - ✅ Data loaded successfully.
+[2026-03-13 09:05:10,191] INFO - 🎬 Recommending movies for: '12 Angry Men'
+[2026-03-13 09:05:10,261] INFO - ✅ Top 5 recommendations ready.
+[2026-03-14 01:52:01,875] INFO - 🔁 Loading data...
+[2026-03-14 01:52:02,361] INFO - ✅ Data loaded successfully.
+[2026-03-14 01:52:08,766] INFO - 🎬 Recommending movies for: '10 Cloverfield Lane'
+[2026-03-14 01:52:08,807] INFO - ✅ Top 5 recommendations ready.
+[2026-03-14 01:52:32,682] INFO - 🎬 Recommending movies for: 'Avengers: Age of Ultron'
+[2026-03-14 01:52:32,703] INFO - ✅ Top 5 recommendations ready.
+[2026-03-14 02:13:23,232] INFO - 🎬 Recommending movies for: 'Automata'
+[2026-03-14 02:13:23,258] INFO - ✅ Top 5 recommendations ready.
+[2026-03-14 02:13:47,908] INFO - 🎬 Recommending movies for: 'Australia'
+[2026-03-14 02:13:47,944] INFO - ✅ Top 5 recommendations ready.
+[2026-03-14 02:13:58,928] INFO - 🎬 Recommending movies for: 'Avatar'
+[2026-03-14 02:13:58,954] INFO - ✅ Top 5 recommendations ready.
