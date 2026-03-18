@@ -1,6 +1,9 @@
 # recommend.py
 import joblib
 import logging
+git add .
+git commit -m "added gdown model download"
+git push
 
 logging.basicConfig(
     level=logging.INFO,
