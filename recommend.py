@@ -1,9 +1,16 @@
 # recommend.py
 import joblib
 import logging
-git add .
-git commit -m "added gdown model download"
-git push
+import gdown
+import os
+
+# Download df_cleaned.pkl
+if not os.path.exists("df_cleaned.pkl"):
+    gdown.download("https://drive.google.com/uc?id=FILE_ID_1", "df_cleaned.pkl", quiet=False)
+
+# Download cosine_sim.pkl
+if not os.path.exists("cosine_sim.pkl"):
+    gdown.download("https://drive.google.com/uc?id=FILE_ID_2", "cosine_sim.pkl", quiet=False)
 
 logging.basicConfig(
     level=logging.INFO,
