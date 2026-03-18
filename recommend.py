@@ -6,11 +6,11 @@ import os
 
 # Download df_cleaned.pkl
 if not os.path.exists("df_cleaned.pkl"):
-    gdown.download("https://drive.google.com/uc?id=FILE_ID_1", "df_cleaned.pkl", quiet=False)
+    gdown.download("https://drive.google.com/uc?id=1AbCxyz12345", "df_cleaned.pkl", quiet=False)
 
 # Download cosine_sim.pkl
 if not os.path.exists("cosine_sim.pkl"):
-    gdown.download("https://drive.google.com/uc?id=FILE_ID_2", "cosine_sim.pkl", quiet=False)
+    gdown.download("https://drive.google.com/uc?id=ANOTHER_FILE_ID", "cosine_sim.pkl", quiet=False)
 
 logging.basicConfig(
     level=logging.INFO,
