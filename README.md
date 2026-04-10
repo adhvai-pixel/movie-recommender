@@ -36,6 +36,8 @@ movie-recommender/
 │── requirements.txt   # Dependencies
 │── movies.csv         # Dataset
 │── README.md          # Documentation
+![WhatsApp Image 2026-03-13 at 3 37 26 AM](https://github.com/user-attachments/assets/bd78d40e-85d0-4b12-8a6f-1f90cc85e652)
+
 ⚙️ How It Works
 
 Load and clean the movie dataset
