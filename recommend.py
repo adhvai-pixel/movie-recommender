@@ -1,17 +1,8 @@
 # recommend.py
 import joblib
 import logging
-import gdown
-import os
 
-# Download df_cleaned.pkl
-if not os.path.exists("df_cleaned.pkl"):
-    gdown.download("https://drive.google.com/file/d/1yCd1TaXfnSDzCOtpMyHTrJtKBLrdZA63/view?usp=sharing", "df_cleaned.pkl", quiet=False)
-
-# Download cosine_sim.pkl
-if not os.path.exists("cosine_sim.pkl"):
-    gdown.download("https://drive.google.com/file/d/1MjDz63piom1dVYDY5Mx3ohXKJvnXLdcD/view?usp=sharing", "cosine_sim.pkl", quiet=False)
-
+# Setup logging
 logging.basicConfig(
     level=logging.INFO,
     format='[%(asctime)s] %(levelname)s - %(message)s',
@@ -42,7 +33,7 @@ def recommend_movies(movie_name, top_n=5):
     sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)[1:top_n + 1]
     movie_indices = [i[0] for i in sim_scores]
     logging.info("✅ Top %d recommendations ready.", top_n)
-    # Creating DataFrame with clean serial numbers starting from 1
+    # Create DataFrame with clean serial numbers starting from 1
     result_df = df[['title']].iloc[movie_indices].reset_index(drop=True)
     result_df.index = result_df.index + 1  # Start from 1 instead of 0
     result_df.index.name = "S.No."
