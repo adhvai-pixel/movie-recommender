@@ -1,4 +1,4 @@
-
+# app.py
 import json
 import streamlit as st
 from recommend import df, recommend_movies
@@ -7,6 +7,7 @@ from omdb_utils import get_movie_details
 
 config = json.load(open("config.json"))
 
+# OMDB api key
 OMDB_API_KEY = config["OMDB_API_KEY"]
 
 st.set_page_config(
@@ -17,7 +18,7 @@ st.set_page_config(
 
 st.title("🎬 Movie Recommender")
 
-
+# Using 'title' instead of 'song' now
 movie_list = sorted(df['title'].dropna().unique())
 selected_movie = st.selectbox("🎬 Select a movie:", movie_list)
 
